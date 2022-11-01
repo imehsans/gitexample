@@ -35,8 +35,16 @@ function App() {
 					<li>git remote add origin "link address"</li>
 					<li>git push -u origin main</li>
 				</ul>
+
 				<h3>You can add both in one line 'add . and commit -m'</h3>
 				<p>git commit -a -m 'message'</p>
+
+				<h3>existing Remote Repo</h3>
+				<ul>
+					<li>git remote add origin "link address"</li>
+					<li>git branch -M master</li>
+					<li>git push -u origin main</li>
+				</ul>
 			</div>
 			<div className="App">
 				<h2>git Configuration</h2>
