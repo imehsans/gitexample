@@ -51,6 +51,14 @@ function App() {
 				<p>
 					<sub>press q for existing the appearing screen</sub>
 				</p>
+				<h3>New Remote Repo</h3>
+				<ul>
+					<li>git init</li>
+					<li>git commit -m "First commit"</li>
+					<li>git branch -M master</li>
+					<li>git remote add origin "link address"</li>
+					<li>git push -u origin main</li>
+				</ul>
 			</div>
 		</>
 	)
