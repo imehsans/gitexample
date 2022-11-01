@@ -10,20 +10,31 @@ function App() {
 				<p>git add</p>
 				<p>git add .</p>
 				<h2>Commit message</h2>
-				<p>git commit "commit-message"</p>
+				<p>git commit -m "commit-message"</p>
 				<h2>Creating branch</h2>
 				<p>git branch branch-Name</p>
-				<h2>Go to branch</h2>
+				<h2>GO to branch</h2>
 				<p>git checkout branch-Name</p>
 				<p>
-					<sub>make changes in working copy now branch is ready</sub>
+					<sub>Make changes in working copy now branch is ready</sub>
 				</p>
-				<h2>adding the current changes</h2>
+				<h2>Adding the current changes</h2>
 				<p>git add .</p>
 				<p>
-					<sub>adding the current changes</sub>
+					<sub>Adding the current changes</sub>
 				</p>
 				<p>git commit "name current changes"</p>
+				<p>i + esc :wq Enter</p>
+				<p>ABC</p>
+				<hr />
+				<h3>New Remote Repo</h3>
+				<ul>
+					<li>git init</li>
+					<li>git commit -m "First commit"</li>
+					<li>git branch -M master</li>
+					<li>git remote add origin "link address"</li>
+					<li>git push -u origin main</li>
+				</ul>
 			</div>
 			<div className="App">
 				<h2>git Configuration</h2>
